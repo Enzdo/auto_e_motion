@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+header .navigation {
+    padding-top: 1%;
+    width: 85%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.5px solid white;
+}
+
+header nav {
+
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+header nav ul .active {
+    border-bottom: #214228 solid 2px;
+}
+
+header .logo {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 30%;
+    height: 90%;
+}
+
+header .logo img {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 211px;
+    height: 126px;
+}
+
+header nav .nav_link {
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+}
+
+header .inscription {
+
+    width: 115%;
+    font-weight: 100;
+    font-size: 17px;
+    border: 1px solid white;
+    color: white;
+    background: none;
+}
+
+header .connexion {
+    width: 125%;
+    font-weight: lighter;
+    font-size: 19px;
+    border: none;
+    color: white;
+    background-color: #214228;
+}
+
+header .slogan {
+    width: 100%;
+    height: 50%;
+}
+
+header .slogan h4 {
+    color: white;
+    padding-left: 10%;
+    padding-top: 7%;
+    width: 40%;
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+header .fleche {
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+}
+
+header .fleche img {
+    width: 50px;
+    height: 50px;
+}
+
+.content img {
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .new {
+    padding: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main .new .titre_new {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    width: 45%;
+    height: 90%;
+}
+
+main .new h2 {
+    font-weight: 200;
+}
+
+main .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 99%;
+}
+
+main .card .card_top {
+    width: 100%;
+    height: 50%;
+}
+
+main .card .card_top img {
+    width: 100%;
+    height: 100%;
+}
+
+main .card .card_bottom {
+    width: 90%;
+    height: 65%;
+}
+
+main .card .card_bottom h3 {
+    padding-top: 5%;
+    font-size: 25px;
+}
+
+main .card .card_bottom h6 {
+    padding-top: 2%;
+    font-weight: 400;
+    font-size: 22px;
+    color: #4A7D37;
+}
+
+main .card .card_bottom p {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size: 13px;
+}
+
+main .card .card_bottom button {
+    width: 40%;
+    font-weight: lighter;
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: #4A7D37;
+}
